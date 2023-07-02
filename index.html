@@ -6,46 +6,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link href="css/output.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 
   <title>Home</title>
 </head>
   
-<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0">
+<body class="bg-gray-100" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0">
 
   <div id="nav-placeholder"></div>
-  <div id="godown" style="height: 60px;"></div>
+  <div id="godown" class="h-16"></div>
 
-  <div id="solutions" class="flex flex-wrap">
-    <div class="w-full md:w-1/2 bg-gray-100 p-8">
-      <h2>About Junlin Group</h2>
+  <div id="solutions" class="flex flex-wrap justify-center items-center">
+    <div class="w-full md:w-1/2 bg-white p-8">
+      <h2 class="text-2xl font-bold mb-4">About Junlin Group</h2>
       <p>Junlin Group is a diversified company consisting of the following divisions:</p>
-      <ul>
+      <ul class="list-disc pl-6 mt-4">
         <li>Junlin Solutions</li>
         <li>Junlin Global Sourcing</li>
         <li>Junlin Wealth</li>
       </ul>
-    <div class="w-full md:w-1/2 p-8"></div>
+    </div>
+    <div class="w-full md:w-1/2"></div>
   </div>
 
-  <div id="solutions" class="flex flex-wrap">
-    <div class="w-full md:w-1/2 bg-gray-100 p-8">
-      <h2>Junlin Solutions</h2>
+  <div id="solutions" class="flex flex-wrap justify-center items-center">
+    <div class="w-full md:w-1/2 bg-white p-8">
+      <h2 class="text-2xl font-bold mb-4">Junlin Solutions</h2>
       <p>Junlin Solutions offers advisory and consultation services, global trading, and online and offline retail solutions. We provide:</p>
-      <ul>
+      <ul class="list-disc pl-6 mt-4">
         <li>Expert advisory and consultation services</li>
         <li>Global trading opportunities</li>
         <li>Online and offline retail solutions</li>
       </ul>
-    <div class="w-full md:w-1/2 p-8"></div>
+    </div>
+    <div class="w-full md:w-1/2"></div>
   </div>
 
-  <div id="globalsourcing" class="flex flex-wrap bg-gray-100">
-    <div class="w-full md:w-1/2 p-8"></div>
-    <div class="w-full md:w-1/2 bg-white p-8">
+  <div id="globalsourcing" class="flex flex-wrap justify-center items-center bg-white">
+    <div class="w-full md:w-1/2"></div>
+    <div class="w-full md:w-1/2 p-8">
       <p>Junlin Global Sourcing specializes in global sourcing for brands interested in entering Far East Markets, as well as brands looking for manufacturing from the Far East to Global Markets. Our services include:</p>
-      <ul>
+      <ul class="list-disc pl-6 mt-4">
         <li>Global sourcing for brands targeting Far East markets</li>
         <li>Manufacturing solutions for brands looking to expand globally</li>
         <li>Quality control services in the Far East</li>
@@ -53,18 +54,19 @@
     </div>
   </div>
 
-  <div id="wealth" class="flex flex-wrap">
-    <div class="w-full md:w-1/2 bg-white p-8">
-      <h2>Junlin Wealth</h2>
+  <div id="wealth" class="flex flex-wrap justify-center items-center">
+    <div class="w-full md:w-1/2 p-8">
+      <h2 class="text-2xl font-bold mb-4">Junlin Wealth</h2>
       <p>Junlin Wealth assists firms in achieving carbon neutrality and offers investment opportunities in the New Zealand forestry market. Our services include:</p>
-      <ul>
+      <ul class="list-disc pl-6 mt-4">
         <li>Assistance in achieving carbon neutrality</li>
         <li>Investment options in the New Zealand forestry market</li>
       </ul>
-    <div class="w-full md:w-1/2 p-8"></div>
+    </div>
+    <div class="w-full md:w-1/2"></div>
   </div>
 
-  <footer>
+  <footer class="bg-gray-800 text-white py-4 text-center">
     <p>&copy; 2023 Junlin Group. All rights reserved.</p>
   </footer>
 
