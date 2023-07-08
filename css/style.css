@@ -821,10 +821,10 @@ ul.dropdown-menu li {
 }
 .slider {
   background: url("../images/slider-bg.jpg") no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   background-attachment: fixed;
-  background-position: 10% 0%;
-  padding: 200px 0;
+  background-position: center center;
+  padding: 300px 0;
   position: relative;
 }
 @media (max-width: 992px) {
