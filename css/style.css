@@ -821,7 +821,7 @@ ul.dropdown-menu li {
 }
 .slider {
   background: url("../images/slider-bg.jpg") no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   background-attachment: fixed;
   background-position: center center;
   padding: 250px 0 350px;
@@ -989,6 +989,7 @@ ul.dropdown-menu li {
   background-size: cover;
   padding: 100px 0;
 }
+
 @media (max-width: 768px) {
   .feature {
     background-image: none !important;
@@ -1003,6 +1004,38 @@ ul.dropdown-menu li {
   margin-bottom: 20px;
 }
 .feature .btn-view-works {
+  background: #655E7A;
+  color: #fff;
+  padding: 10px 24px;
+}
+
+.feature2 {
+  background: url("../img/forest.jpeg");
+  background-position: 50% 94px;
+  display: block;
+  position: relative;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+@media (max-width: 768px) {
+  .feature2 {
+    background-image: none !important;
+    background-color: #F2F2F2 !important;
+  }
+}
+.feature2 h2 {
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.feature2 p {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.feature2 .btn-view-works {
   background: #655E7A;
   color: #fff;
   padding: 10px 24px;
@@ -2088,6 +2121,12 @@ ul.dropdown-menu li {
 
 .bg-2 {
   background: url("../images/featue-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bg-3 {
+  background: url("../images/forest.jpeg");
   background-size: cover;
   background-attachment: fixed;
 }
