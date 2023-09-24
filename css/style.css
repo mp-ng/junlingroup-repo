@@ -7,10 +7,10 @@
 
 @charset "UTF-8";
 /*=== MEDIA QUERY ===*/
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Volkhov:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aleo:wght@300;400;500;700&display=swap");
 body {
   line-height: 1.65;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Aleo', serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -20,7 +20,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Aleo', serif;
 }
 
 h1,
@@ -51,7 +51,7 @@ h4 {
 p {
   color: #7B7B7B;
   font-size: 15px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Aleo', serif;
   line-height: 1.7;
 }
 
@@ -271,7 +271,6 @@ input[type=tel]:focus {
 .title h2 {
   font-size: 18px;
   text-align: center;
-  text-transform: uppercase;
   letter-spacing: 2px;
 }
 
@@ -279,7 +278,6 @@ input[type=tel]:focus {
   margin-bottom: 70px;
 }
 .section-title h2 {
-  text-transform: uppercase;
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 20px;
@@ -900,7 +898,6 @@ ul.dropdown-menu li {
   padding-top: 15px;
   margin: 0;
   font-weight: 500;
-  text-transform: uppercase;
 }
 .service .service-item p {
   padding-top: 10px;
@@ -930,7 +927,6 @@ ul.dropdown-menu li {
   padding-top: 15px;
   margin: 0;
   font-weight: 500;
-  text-transform: uppercase;
   margin-bottom: 5px;
 }
 .dark-service .service-item p {
@@ -1010,7 +1006,7 @@ ul.dropdown-menu li {
 }
 
 .feature2 {
-  background: url("../img/forest.jpeg");
+  background: url("../img/nature-new.jpeg");
   background-position: 50% 94px;
   display: block;
   position: relative;
@@ -1188,7 +1184,7 @@ ul.dropdown-menu li {
   display: inline-block;
 }
 .testimonial .testimonial-carousel .user p {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Aleo', serif;
   padding-bottom: 0;
   margin-top: 6px;
   font-size: 12px;
@@ -1322,7 +1318,6 @@ ul.dropdown-menu li {
   box-shadow: 0 8px 15px 0 rgba(5, 57, 106, 0.06);
 }
 .pricing-table .pricing-item a.btn-main, .pricing-table .pricing-item a.btn-transparent, .pricing-table .pricing-item a.btn-small {
-  text-transform: uppercase;
   margin-top: 20px;
 }
 .pricing-table .pricing-item li {
@@ -2120,13 +2115,13 @@ ul.dropdown-menu li {
 }
 
 .bg-2 {
-  background: url("../images/featue-bg.jpg");
+  background: url("../images/all-white-m3suujs4ekgv932g.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
 
 .bg-3 {
-  background: url("../images/forest.jpeg");
+  background: url("../images/nature-new.jpeg");
   background-size: cover;
   background-attachment: fixed;
 }
