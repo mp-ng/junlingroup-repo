@@ -103,6 +103,23 @@ input[type=tel]:focus {
   border: 1px solid #655E7A;
 }
 
+/* For wider viewports */
+.col-md-5 .block img {
+  margin-top: 100px;
+  margin-left: 50px;
+  width: 550px !important;
+}
+
+/* For narrow viewports */
+@media (max-width: 768px) {
+  .col-md-5 .block img {
+    margin: 0 auto !important;
+    display: block !important;
+    width: 100% !important; 
+  }
+}
+
+
 .form-control {
   box-shadow: none;
   border-radius: 0;
@@ -986,12 +1003,12 @@ ul.dropdown-menu li {
   padding: 100px 0;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .feature {
     background-image: none !important;
     background-color: #F2F2F2 !important;
   }
-}
+} */
 .feature h2 {
   margin-bottom: 30px;
 }
@@ -1017,12 +1034,12 @@ ul.dropdown-menu li {
   padding: 100px 0;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .feature2 {
     background-image: none !important;
     background-color: #F2F2F2 !important;
   }
-}
+} */
 .feature2 h2 {
   color: #ffffff;
   margin-bottom: 30px;
