@@ -91,33 +91,42 @@
     </div>
   </div>
 </section>
+
 <!-- contact form start -->
 <section class="contact-form">
   <div class="container">
-    <form class="row" id="contact-form">
+    <form class="row" id="contact-form" action="https://formspree.io/f/mayglkdv" method="POST">
+      
       <div class="col-md-6 col-sm-12">
         <div class="block">
           <div class="form-group">
+            <label>Your Name:</label>
             <input name="user_name" type="text" class="form-control" placeholder="Your Name">
           </div>
           <div class="form-group">
-            <input name="user_email" type="text" class="form-control" placeholder="Email Address">
+            <label>Your Email:</label>
+            <input name="email" type="email" class="form-control" placeholder="Email Address">
           </div>
           <div class="form-group">
+            <label>Subject:</label>
             <input name="user_subject" type="text" class="form-control" placeholder="Subject">
           </div>
         </div>
       </div>
+
       <div class="col-md-6 col-sm-12">
         <div class="block">
           <div class="form-group-2">
-            <textarea name="user_message" class="form-control" rows="4" placeholder="Your Message"></textarea>
+            <label>Your Message:</label>
+            <textarea name="message" class="form-control" rows="4" placeholder="Your Message"></textarea>
           </div>
           <button class="btn btn-default" type="submit">Send Message</button>
         </div>
       </div>
+      
       <div class="error" id="error">Message failed to send</div>
       <div class="success" id="success">Message Sent</div>
+      
     </form>
   </div>
 </section>
