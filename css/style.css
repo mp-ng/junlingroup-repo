@@ -356,12 +356,14 @@ a:focus {
   border-radius: 0px;
 }
 
-@media (max-width: 992px) {
-  .trans-navigation {
-    background: #779ebf;
-    box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
-    border-radius: 0px;
-  }
+.trans-navigation {
+  background: rgba(181, 188, 196, 0.3);
+  box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
+  border-radius: 0px;
+  transition: background 0.3s ease;
+}
+.trans-navigation.solid {
+  background: rgba(181, 188, 196, 1);
 }
 
 .trans-navigation .navbar-brand h4,
@@ -1457,7 +1459,7 @@ CONTACT PAGE
   right: 30px;
   bottom: 50px;
   z-index: 999;
-  background: #779ebf;
+  background: rgba(181, 188, 196, 0.8);
   color: #fff !important;
   border-radius: 100%;
   opacity: 0;

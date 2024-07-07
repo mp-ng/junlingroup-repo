@@ -32,8 +32,15 @@
     } else {
       $('.scroll-to-top').removeClass('reveal');
     }
-  });
 
+    // Change navbar background based on scroll position
+    var navbar = $('.trans-navigation');
+    if ($(window).scrollTop() > 50) {
+      navbar.addClass('solid');
+    } else {
+      navbar.removeClass('solid');
+    }
+  });
 
   // Fixed header
   $(window).on('scroll', function () {
@@ -60,5 +67,7 @@
   $('.js-scroll-trigger').on('click', function (event) {
     $('.navbar-collapse').collapse('hide');
   });
+
+  
 
 })(jQuery);
